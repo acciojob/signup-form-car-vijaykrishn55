@@ -8,7 +8,55 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<form>
+		<div>
+	<label for ="name">1. Name</label>
+	<input type="text" id="name" placeholder="Name" required>
+		</div>
+	<div>
+	<label for="email">2. Email</label>
+	<input type="email" id=email placeholder="Email" required>
+	</div>
+		<div>
+	<label for ="gender-m">3. M</label>
+	<input type="radio" id="gender-m"name="gender" required>
+	<label for="gender"> F</label>
+	<input type="radio" id="gender-f" name="gender" required>
+		</div>
+		<div>
+	<label for="car">Car Brands</label>
+	<select name="car" id="car" required>
+	<option value="" disabled selected>choose your Car</option>
+	<option>bmw</option>
+	<option>oudi</option>
+	<option>hondai</option>
+	</select>
+	</div>
+	<div>
+	<label for ="age" >5. Age</label>
+	<input type="number" id="age" min="0" placeholder="Age" required>
+	</div>
+	<div>
+	<label for="date">6. DOB</label>
+	<input type="date" name="date" required>
+	</div>
+	<div>
+	<label for="number">7. Phone Number</label>
+	<input type="tel" name="number" placeholder="XXX-XXX-XXXX" required>
+	</div>
+	<div>
+	<label  for="passward" >8. Passward</label>
+	<input type="password" id="passward" placeholder="Passward" required>
+	</div>
+	<div>
+	<label for="tos"></label>
+	<input type="checkbox" id="tos" required ><b>i agree for all tos</b>
+	</div>
+<div>
+	<label for ="submit"><label>
+	<input type="submit" required>
+	</div>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
